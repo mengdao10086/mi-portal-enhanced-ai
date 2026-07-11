@@ -48,5 +48,5 @@ android {
 
 dependencies {
     // Xposed API — 本地 jar（官方 Maven 仓库已关闭，不依赖远程）
-    compileOnly(file("libs/xposed-api-82.jar"))
+    compileOnly(files("libs/xposed-api-82.jar"))
 }
