@@ -11,7 +11,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url = uri("https://api.xposed.info/repository") }
+        // Xposed API 镜像 — 官方 api.xposed.info 已关闭
+        maven("https://maven.aliyun.com/repository/jcenter")
+        maven("https://maven.aliyun.com/repository/public")
     }
 }
 

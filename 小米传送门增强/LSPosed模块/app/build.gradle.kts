@@ -47,7 +47,6 @@ android {
 }
 
 dependencies {
-    // Xposed API — LSPosed 完全兼容传统 Xposed API
-    compileOnly("de.robv.android.xposed:api:82")
-    compileOnly("de.robv.android.xposed:api:82:sources")
+    // Xposed API — 本地 jar（官方 Maven 仓库已关闭，不依赖远程）
+    compileOnly(file("libs/xposed-api-82.jar"))
 }
