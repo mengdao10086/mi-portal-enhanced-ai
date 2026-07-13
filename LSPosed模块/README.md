@@ -28,7 +28,7 @@
 
 # 方法二：命令行构建
 # 1. 生成 Gradle Wrapper（如有 Android Studio，会自动生成）
-cd "小米传送门增强/LSPosed模块"
+cd "LSPosed模块"
 gradle wrapper --gradle-version 8.2
 # 2. 设置 ANDROID_HOME 环境变量
 export ANDROID_HOME=$HOME/Android/Sdk   # Linux/macOS
