@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 OWNER=mengdao10086
 REPO=-
 BRANCH=main
-FILE_PATH="小米传送门增强/LSPosed模块/app/build.gradle.kts"
+FILE_PATH="LSPosed模块/app/build.gradle.kts"
 COMMIT_MSG="修复构建：compileOnly(file()) → compileOnly(files()) Kotlin DSL 语法修正"
 TMPDIR="$(mktemp -d)"
 

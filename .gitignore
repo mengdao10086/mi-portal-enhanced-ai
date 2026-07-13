@@ -15,8 +15,7 @@ Thumbs.db
 
 ## Large binaries (keep apk for reference but ignore duplicates)
 *.apk
-小米传送门增强/传送门-com.miui.contentextension-4.1.3.apk
 
 ## Large binaries (GitHub limit 100MB)
-小米传送门增强/decompile/jadx.zip
+decompile/jadx.zip
 

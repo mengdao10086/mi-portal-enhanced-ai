@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  MODULE_DIR: 小米传送门增强/LSPosed模块
+  MODULE_DIR: LSPosed模块
 
 jobs:
   build:
