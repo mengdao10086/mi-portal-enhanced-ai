@@ -49,12 +49,12 @@ jobs:
         run: |
           mkdir -p artifacts
           cp "${{ env.MODULE_DIR }}/app/build/outputs/apk/release/"*.apk \
-             "artifacts/TaplusFix-v${{ steps.version.outputs.VERSION }}.apk"
-          echo "✅ 构建产物: artifacts/TaplusFix-v${{ steps.version.outputs.VERSION }}.apk"
+             "artifacts/mi-portal-enhanced-v${{ steps.version.outputs.VERSION }}.apk"
+          echo "✅ 构建产物: artifacts/mi-portal-enhanced-v${{ steps.version.outputs.VERSION }}.apk"
           ls -lh artifacts/
 
       - name: 上传 APK 构建产物
         uses: actions/upload-artifact@v4
         with:
-          name: TaplusFix-v${{ steps.version.outputs.VERSION }}
-          path: artifacts/TaplusFix-v*.apk
+          name: mi-portal-enhanced-v${{ steps.version.outputs.VERSION }}
+          path: artifacts/mi-portal-enhanced-v*.apk
